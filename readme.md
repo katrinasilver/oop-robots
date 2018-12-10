@@ -28,7 +28,7 @@ try {
 }
 
 try {
-  hal.description = 'A very friendly robot' // throws Error
+  hal.description = '' // throws Error
 } catch (e) {
   console.error(e)
 }
